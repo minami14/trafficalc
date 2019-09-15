@@ -1,5 +1,5 @@
 # trafficalc
-Traffic calculator for iguagile.
+Traffic calculator for [iguagile](https://github.com/iguagile/iguagile-engine).
 
 # Usage
 
