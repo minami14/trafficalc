@@ -22,7 +22,7 @@ const (
 const (
 	tcp         = 20
 	ip          = 20
-	eth         = 20
+	eth         = 26
 	metadata    = tcp + ip + eth
 	f32         = 4
 	i32         = 4
