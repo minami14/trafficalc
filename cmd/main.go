@@ -56,6 +56,11 @@ func main() {
 	clientDownMbps := float64(bps) / float64(mb)
 	serverUpGbps := float64(bps) * float64(opt.Client) / float64(gb)
 
+	fmt.Printf("%v clients\n", opt.Client)
+	fmt.Printf("%v points tracking\n", opt.Trackers)
+	fmt.Printf("%v fps\n", opt.Fps)
+	fmt.Println("************************")
+
 	fmt.Printf("client down\t%.2f Mbps\n", clientDownMbps)
 	fmt.Printf("client up\t%.2f Kbps\n", clientUpKbps)
 	fmt.Printf("server down\t%.2f Mbps\n", serverDownMbps)
